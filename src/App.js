@@ -8,6 +8,7 @@ import ForgotPassword from './Components/Login/ForgotPassword';
 import OTPVerification from './Components/Login/OTPVerification';
 import ResetPassword from './Components/Login/ResetPassword';
 import Dashboard from './Components/PortMgmt/Dashboard';
+import Market from './Components/PortMgmt/Market';
 // import Portfolio from './Components/PortMgmt/Portfolio';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/otp-verification" element={<OTPVerification />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/dashboard" element={< Dashboard />} />
+        <Route path="/market" element={< Market />} />
         {/* <Route path="/portfolio" element={< Portfolio />} /> */}
         
         
